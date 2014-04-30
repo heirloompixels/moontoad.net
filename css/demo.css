@@ -2,7 +2,10 @@
 
 
 .dragons {
-  background-image: url(/grfx/dragonTrail.jpg);
+  background-image: url(/hereBeDragons/masthead.jpg);
+}
+.hero {
+  padding: 0; 
 }
 
 .pitch {
@@ -152,48 +155,48 @@ strong, b {
 }
 @media screen and (min-width: 420px) {
   .hero {
-    padding-top: 4.95em;
-    padding-bottom: 4.95em;
+    padding-top: ;
+    padding-bottom: ;
   }
 }
 .lt-ie9 .hero {
-  padding-top: 7.7em;
-  padding-bottom: 7.7em;
+  padding-top: ;
+  padding-bottom: ;
 }
 @media screen and (min-width: 600px) {
   .hero {
-    padding-top: 7.7em;
-    padding-bottom: 7.7em;
+    padding-top: ;
+    padding-bottom: ;
   }
 }
 .lt-ie9 .hero {
-  padding-top: 10.45em;
-  padding-bottom: 10.45em;
+  padding-top: ;
+  padding-bottom: ;
 }
 @media screen and (min-width: 900px) {
   .hero {
-    padding-top: 10.45em;
-    padding-bottom: 10.45em;
+    padding-top: ;
+    padding-bottom: ;
   }
 }
 .lt-ie9 .hero {
-  padding-top: 13.2em;
-  padding-bottom: 13.2em;
+  padding-top: ;
+  padding-bottom: ;
 }
 @media screen and (min-width: 1100px) {
   .hero {
-    padding-top: 13.2em;
-    padding-bottom: 13.2em;
+    padding-top: ;
+    padding-bottom: ;
   }
 }
 .lt-ie9 .hero {
-  padding-top: 18.7em;
-  padding-bottom: 18.7em;
+  padding-top: ;
+  padding-bottom: ;
 }
 @media screen and (min-width: 1300px) {
   .hero {
-    padding-top: 18.7em;
-    padding-bottom: 18.7em;
+    padding-top: ;
+    padding-bottom: ;
   }
 }
 .hero h1 {
