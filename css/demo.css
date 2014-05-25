@@ -1,5 +1,35 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
 
+p {
+  margin: 10px auto; 
+  width: 400px; 
+}
+
+#posts article {
+  margin: 75px 0; 
+}
+
+#posts footer {
+  color: #ccc; 
+  border-top: 1px dotted #ccc; 
+}
+#posts footer a {
+  color: #ccc; 
+}
+
+#soliloquy {
+  border-bottom: 3px solid #ccc; 
+  margin 30px 0 50px 0; 
+}
+
+#soliloquy p {
+  margin: 0; 
+}
+
+#posts {
+        margin: 25px 0; 
+}
+
 
 .dragons {
   background-image: url(/hereBeDragons/masthead.jpg);

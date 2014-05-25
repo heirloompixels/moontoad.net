@@ -1,9 +1,29 @@
 ---
-layout: default
+layout: sassaparilla2 
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<div id="posts">
+<div class ="row-parent">
+<div class="row">
 
-<div class="post">
-{{ content }}
+
+<div class="colspan12-6 push 12-3 colspan8-6 push8-1 colspan6-6 colspan2-2  as-grid with-gutter">
+  
+  <article>
+      {{content}}
+
+      <footer>
+            <p><a href="{{ page.url }}">{{ page.title }}</a> 
+              <span>({{ page.date | date:"%Y-%m-%d" }})</span>
+            </p>
+            <p>
+              {{ page.tags | array_to_sentence_string }}</p>
+      </footer>
+
+      
+    </article>
+
+</div>
+
+</div>
+</div>
 </div>

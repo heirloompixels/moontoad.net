@@ -1,78 +1,33 @@
 ---
-layout: sassaparilla 
+layout: sassaparilla2 
 title: Adventures &middot; Words &middot; Visual Necessity
 ---
 
+<div id="posts">
+<div class ="row-parent">
+<div class="row">
 
 
-<div class="how-to is-typeset">
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-8 push12-2 colspan8-6 push8-2 colspan6-6 colspan2-2" >
-              <h1>Adventure &middot; Words &middot; Visual Necessity</h1>
-            </div>
-          </div>
-        </div>
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-4 push12-1 colspan8-3 push8-1 colspan6-2 colspan2-2 as-grid with-gutter" >
-              <h2 id="splendid-redouble.">Splendid Redouble.</h2>
-              <p>It&#39;s Spring. 
-                Has been for a while, actually. </p>
-              <p>Life has returned to the desert and after last Septembers rain is bounding with joy and fresh growth. We caught a swarm of bees. We&#39;ve planted the warm weather crops. Weeds, everywhere are mercilessly pulled and laid down as mulch and biomass to shade and feed our precious soil.</p>
-              <p>A rain already - green under grey color. Green is my favorite color in Black and White Photography.  A perfectly sensuous range of grey defines it. </p>
-            </div>
-            
-            <div class="colspan12-4 colspan8-4 colspan6-4 colspan2-2 as-grid with-gutter" >
-              <img src="/seasons/spring2014/cactusReds.jpg" />
-            </div>
-          </div>
-        </div>
+<div class="colspan12-6 push 12-3 colspan8-6 push8-1 colspan6-6 colspan2-2  as-grid with-gutter">
+  
+  {% for post in site.posts limit: 20 %}
+  <article>
+      {{post.content}}
 
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-4 push12-1 colspan8-3 push8-1 colspan6-2 colspan2-2 as-grid with-gutter" >
-              <img src="/nocturnalCaffine/coffeePotWhite.jpg" />
-            </div>
-            <div class="colspan12-4 colspan8-4 colspan6-4 colspan2-2 as-grid with-gutter" >
-              <p>I&#39;ve been painting on <a href="/nocturnalCaffine">Nocturnal Caffine</a> - portraits of coffee makers.  I&#39;ve tried most of these - the whole project started as a collected mass of coffee machines - all garage sale refuges which made interesting though sometimes dubious cups of coffee.  Then the listless hull of a machine lingered, moved, then finally tucked away in that unholiest of places: the shed.  I wanted to take a photo, a family portrait of coffee - that family portrait has become this series and photography has given way to oil, watercolor and pencil.  </p>
-            </div>
-          </div>
-        </div>
+      <footer>
+            <p><a href="{{ post.url }}">{{ post.title }}</a> 
+              <span>({{ post.date | date:"%Y-%m-%d" }})</span>
+            </p>
+            <p>
+              {{ post.tags | array_to_sentence_string }}</p>
+      </footer>
 
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-4 push12-1 colspan8-3 push8-1 colspan6-2 colspan2-2 as-grid with-gutter" >
-<p>Then there is the moon.  I watched the other night as the moon faded into the orange apparition of mars.  Mikey commented about how he always expected mars to look like that when people say &quot;mars is gonna be huge tongiht&quot;.  I wonder if that is a good prep for the first people to land on the moon - to see mars so close, where it grows from the point of light into a sphere of light and then a blue of recognition of mountains, sand dunes, impossibly large arroyos.  I had no idea it would be orange for so long.  That shoked me, worried me actually, and made me realize the gravity of not having foreknowledge of such an event on the psyche.  That still forever when the orange was moon and the stars danced long forgotten stories on the dome of the heavens.  It seemed impossible long, an eternity in which madness was free to wander in long legged deftness.</p>
-              <p>I&#39;ve been painting the moon, a year&#39;s worth, a cycle - <a href="/cyclumLunarem">Cyclum Lunarem</a>. </p>
-            </div>
+      
+    </article>
+  {% endfor %}
 
-            <div class="colspan12-4 colspan8-4 colspan6-4 colspan2-2 as-grid with-gutter" >
-              <img src="/seasons/spring2014/cyclumOnTheWall.jpg"/> 
-            </div>
-          </div>
-        </div>
+</div>
 
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-4 push12-1 colspan8-3 push8-1 colspan6-2 colspan2-2 as-grid with-gutter" >
-              <img src="/seasons/spring2014/myersSpringHands.jpg"/> 
-            </div>
-
-            <div class="colspan12-4 colspan8-4 colspan6-4 colspan2-2 as-grid with-gutter" >
-              <p>Maps - dreams of forgotten long lost places.  Ancient feet stomping ancient footpaths and the water and fire: <a href="/springsAndIngle">Springs &amp; Ingle</a>. </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row-parent">
-          <div class="row">
-            <div class="colspan12-4 push12-1 colspan8-3 push8-1 colspan6-2 colspan2-2 as-grid with-gutter" >
-              <p>For the moment i leave you with the capture of the bees.   </p>
-            </div>
-
-            <div class="colspan12-4 colspan8-4 colspan6-4 colspan2-2 as-grid with-gutter" >
-            </div>
-          </div>
-        </div>
+</div>
+</div>
 </div>

@@ -2,3 +2,4 @@ name: moontoad &middot&middot; adventure $middot; words $middot; visual necessit
 markdown: redcarpet
 pygments: true
 site: http://moontoad.net
+permalink: /:categories/:title/
