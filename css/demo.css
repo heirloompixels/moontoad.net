@@ -1,60 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300);
 
-p {
-  margin: 10px auto; 
-  width: 400px; 
-}
-
-#posts article {
-  margin: 75px 0; 
-}
-
-#posts footer {
-  color: #ccc; 
-  border-top: 1px dotted #ccc; 
-}
-#posts footer a {
-  color: #ccc; 
-}
-
-#soliloquy {
-  border-bottom: 3px solid #ccc; 
-  margin 30px 0 50px 0; 
-}
-
-#soliloquy p {
-  margin: 0; 
-}
-
-#posts {
-        margin: 25px 0; 
-}
 
 
-.dragons {
-  background-image: url(/hereBeDragons/masthead.jpg);
-}
-.hero {
-  padding: 0; 
-}
 
-.pitch {
-  background-color: red; 
-}
-
-.caffine {
-  background-image: url(/grfx/moonCoffee.jpg); 
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-img {
-  display: block;
-  margin-bottom: 1.1em;
-}
 
 h1, h2, h3, h4, h5, h6 {
   color: #333333;
@@ -515,4 +463,79 @@ strong, b {
 
 .intro {
   margin-top: 1.65em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TODO: split, recombine with sass */
+/* EDITS */
+
+p.legal {
+  color: #777777; 
+}
+
+p {
+  margin: 10px auto; 
+  width: 400px; 
+}
+
+#posts article {
+  margin: 75px 0; 
+}
+
+#posts footer {
+  color: #ccc; 
+  border-top: 1px dotted #ccc; 
+}
+#posts footer a {
+  color: #ccc; 
+}
+
+#soliloquy {
+  border-bottom: 3px solid #ccc; 
+  margin 30px 0 50px 0; 
+}
+
+#soliloquy p {
+  margin: 0; 
+}
+
+#posts {
+        margin: 25px 0; 
+}
+
+
+.dragons {
+  background-image: url(/hereBeDragons/masthead.jpg);
+}
+.hero {
+  padding: 0; 
+}
+
+.pitch {
+  background-color: red; 
+}
+
+.caffine {
+  background-image: url(/grfx/moonCoffee.jpg); 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img {
+  display: block;
+  margin-bottom: 1.1em;
 }
