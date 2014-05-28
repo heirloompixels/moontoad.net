@@ -1,5 +1,5 @@
 ---
-layout: sparks
+layout: post 
 title: Orange Prickley Pear
 date: 2014-05-12 01:02:17 -0600
 category: sparks

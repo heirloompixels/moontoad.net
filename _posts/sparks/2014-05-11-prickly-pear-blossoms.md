@@ -1,5 +1,5 @@
 ---
-layout: sparks
+layout: post 
 title: Prickly Pear Blossoms
 date: 2014-05-11 23:38:06 -0600
 category: sparks

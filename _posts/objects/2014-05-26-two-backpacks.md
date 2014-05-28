@@ -1,5 +1,5 @@
 ---
-layout: objects
+layout: post 
 title: Two Backpacks
 date: 2014-05-26 20:43:22 -0600
 category: objects
