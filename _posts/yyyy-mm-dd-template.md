@@ -1,5 +1,5 @@
 ---
-layout: %layout%
+layout: raindance 
 title: %title%
 date: %date%
 category: %category%

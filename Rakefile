@@ -72,7 +72,7 @@ def template(name, category)
 
   # update variables in the yaml frontmatter for the post
   contents = contents.sub("%date%", t.strftime("%Y-%m-%d %H:%M:%S %z")).sub("%title%", name)
-  contents = contents.sub("%category%", category).sub("%layout%", category)
+  contents = contents.sub("%category%", category)
 
   filename = postdir + "/" + t.strftime("%Y-%m-%d-") + name.downcase.gsub( /[^a-zA-Z0-9_\.]/, '-') + '.markdown'
   if File.exists? filename then
