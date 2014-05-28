@@ -5,7 +5,9 @@ title: Adventures &middot; Words &middot; Visual Necessity
 
   {% for post in site.posts limit: 20 %}
   <article>
+    <div class="typography">
       {{post.content}}
+    </div>
 
       <footer>
             <p><a href="{{ post.url }}">{{ post.title }}</a> 
