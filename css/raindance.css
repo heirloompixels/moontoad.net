@@ -256,20 +256,18 @@ header {
 }
 
 header h1 {
-  width: 48.97959%;
+  width: 38.77551%;
   float: left;
   margin-right: 2.04082%;
   padding-left: 20.40816%;
   color: #3f403d;
-  margin: 0;
 }
 
 header p {
-  width: 28.57143%;
+  width: 38.77551%;
   float: left;
   margin-right: 2.04082%;
   color: #777;
-  margin: 0;
 }
 
 header nav {
@@ -284,23 +282,27 @@ header ul {
 }
 
 article {
-  margin-top: 75px;
   width: 79.59184%;
   float: left;
   margin-right: 2.04082%;
-  padding-left: 20.40816%;
+  padding-left: 30.61224%;
+  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 article figure {
-  width: 100%;
+  width: 82.75862%;
   float: left;
-  margin-left: 0;
-  margin-right: 0;
+  margin-right: 3.44828%;
   margin: 0;
 }
 
 article img {
   width: 100%;
+}
+
+article footer p {
+  margin: 0;
 }
 
 article p {

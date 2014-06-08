@@ -4,6 +4,7 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
+require 'flickraw'
 
 # == Configuration =============================================================
 
@@ -165,6 +166,9 @@ task :draft, :title, :category do |t, args|
 
 end
 
+
+
+
 # rake publish
 desc "Move a post from _drafts to _posts"
 task :publish do
@@ -223,6 +227,32 @@ task :publishers do
     puts "Please choose a draft by the assigned number."
   end
 end
+
+
+# rake flickr
+desc "download a photo from flickr"
+task :flickr do
+
+FlickRaw.api_key="b48f6a2cd40e4efef2f8f5b84122fac2"
+FlickRaw.shared_secret="180e408215fb67eb"
+
+list   = flickr.photos.getRecent
+
+id     = list[0].id
+secret = list[0].secret
+info = flickr.photos.getInfo :photo_id => id, :secret => secret
+
+puts info.title           # => "PICT986"
+puts info.dates.taken     # => "2006-07-06 15:16:18"
+
+sizes = flickr.photos.getSizes :photo_id => id
+
+original = sizes.find {|s| s.label == 'Original' }
+puts original.width       # => "800" -- may fail if they have no original marked image
+
+
+end
+
 
 # rake img 
 desc "insert img tags into corresponding post"
