@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 body {
   color: #333333;
-  font-size: 18px;
+  font-size: 22px;
   font-family: Museo500, Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: 300;
   padding: 30px;
@@ -264,7 +264,7 @@ header {
 }
 
 header h1 {
-  width: 38.77551%;
+  width: 28.57143%;
   float: left;
   margin-right: 2.04082%;
   padding-left: 20.40816%;
@@ -299,10 +299,11 @@ article {
 }
 
 article figure {
-  width: 82.75862%;
+  width: 100%;
   float: left;
-  margin-right: 3.44828%;
-  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin: 0 0 25px 0;
 }
 
 article img {
@@ -311,12 +312,6 @@ article img {
 
 article footer p {
   margin: 0;
-}
-
-article p {
-  width: 65.51724%;
-  float: left;
-  margin-right: 3.44828%;
 }
 
 footer {
