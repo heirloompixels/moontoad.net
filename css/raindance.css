@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
  */
 body {
   color: #333333;
-  font-size: 22px;
+  font-size: 20px;
   font-family: Museo500, Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: 300;
   padding: 30px;
@@ -267,7 +267,7 @@ header h1 {
   width: 28.57143%;
   float: left;
   margin-right: 2.04082%;
-  padding-left: 20.40816%;
+  padding-left: 10.20408%;
   color: #3f403d;
 }
 
@@ -285,6 +285,7 @@ header nav {
 }
 
 header ul {
+  text-align: right;
   list-style: none;
   margin: 0;
 }

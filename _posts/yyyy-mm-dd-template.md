@@ -3,7 +3,7 @@ layout: raindance
 title: %title%
 date: %date%
 category: %category%
-tags:
+tags: [ %category%, Spring 2014 ]
 
 #for posting to tumblr with tumblr ruby gem
 type: quote

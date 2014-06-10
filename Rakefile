@@ -4,7 +4,7 @@ require 'rake'
 require 'yaml'
 require 'fileutils'
 require 'rbconfig'
-require 'flickraw'
+#require 'flickraw'
 
 # == Configuration =============================================================
 
